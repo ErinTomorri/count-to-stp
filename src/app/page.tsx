@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
-import './Countdown.css'; // {{ edit_1 }} Import a CSS file for styles
+import './countdown.css'; // {{ edit_1 }} Import a CSS file for styles
 
 const Countdown = () => {
     const targetDate = new Date('2025-03-17T00:00:00');
